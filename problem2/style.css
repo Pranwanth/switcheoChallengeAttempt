@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 360px;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: royalblue;
+}
+
+.formContainer{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.transaction_form {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    padding: 30px 40px;
+}
+
+.transaction_form_fields{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.transaction_form_fields label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.transaction_form_fields input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}
+
+.transaction_form_fields small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.transaction_form button{
+    background-color: royalblue;
+    color: white;
+    border: 2px solid royalblue;
+    font-family: inherit;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
