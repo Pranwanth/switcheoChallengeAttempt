@@ -1,1 +1,1 @@
-declare module "ethers"
+declare module 'ethers'
